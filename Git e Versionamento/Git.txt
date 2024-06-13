@@ -2,3 +2,4 @@ git status|- mostra o estato da branch
 git diff | mostra linhas alteradas
 git add . | adiciona todos os arquivos
 git commit -m "commit" | faz um commit das suas alterações 
+git push |
