@@ -4,4 +4,4 @@ git add . | adiciona todos os arquivos
 git commit -m "commit" | faz um commit das suas alterações 
 git log | mostra o histórico de commit
 git restore .\arquivo | restaura um arquivo (--staged)
-git push |
+git push | recebe commits de um repositório remoto
