@@ -6,3 +6,6 @@ git log | mostra o histórico de commit
 git restore .\arquivo | restaura um arquivo (--staged)
 git push | envia commits para um repositório remoto
 git pull | recebe commits de um repositório remoto
+git fetch | baixa commits, arquivos e referências de um repositório remoto para o repositório local, sem integrá-los automaticamente no seu trabalho atual
+git clone <url> | cria uma cópia do repositório no seu diretório
+git branch nome-do-branch | Criar um novo branch
