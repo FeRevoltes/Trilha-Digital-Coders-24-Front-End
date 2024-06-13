@@ -6,3 +6,4 @@ git log | mostra o histórico de commit
 git restore .\arquivo | restaura um arquivo (--staged)
 git push | envia commits para um repositório remoto
 git pull | recebe commits de um repositório remoto
+git checkout | troca a branch
