@@ -9,3 +9,5 @@ git pull | recebe commits de um repositório remoto
 git fetch | baixa commits, arquivos e referências de um repositório remoto para o repositório local, sem integrá-los automaticamente no seu trabalho atual
 git clone <url> | cria uma cópia do repositório no seu diretório
 git branch nome-do-branch | Criar um novo branch
+
+git merge | É usado para combinar as mundanças de diferentes branches em um único branch
