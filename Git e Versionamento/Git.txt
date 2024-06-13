@@ -1,12 +1,14 @@
-git status|- mostra o estato da branch
-git diff | mostra linhas alteradas (--staged)
-git add . | adiciona todos os arquivos
-git commit -m "commit" | faz um commit das suas alterações 
-git log | mostra o histórico de commit
-git restore .\arquivo | restaura um arquivo (--staged)
-git push | envia commits para um repositório remoto
-git pull | recebe commits de um repositório remoto
-git fetch | baixa commits, arquivos e referências de um repositório remoto para o repositório local, sem integrá-los automaticamente no seu trabalho atual
-git clone <url> | cria uma cópia do repositório no seu diretório
+git status|- Mostra o estato da branch
+git diff | Mostra linhas alteradas (--staged)
+git add . | Adiciona todos os arquivos
+git commit -m "commit" | Faz um commit das suas alterações 
+git log | Mostra o histórico de commit
+git restore .\arquivo | Restaura um arquivo (--staged)
+git push | Envia commits para um repositório remoto
+git pull | Recebe commits de um repositório remoto
+git checkout | Troca a branch
+git fetch | Baixa commits, arquivos e referências de um repositório remoto para o repositório local, sem integrá-los automaticamente no seu trabalho atual
+git clone <url> | Cria uma cópia do repositório no seu diretório
 git branch nome-do-branch | Criar um novo branch
+git rebase | Integra as mudanças de uma branch para outra, reescrevendo o histórico de commits para parecer linear
 git merge | É usado para combinar as mundanças de diferentes branches em um único branch
