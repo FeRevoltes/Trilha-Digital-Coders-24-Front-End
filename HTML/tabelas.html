@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+  </head>
+  <body>
+    <h1>Tabela</h1>
+
+    <section id="students">
+      <h2>Tabela de Alunos</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Matrícula</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Aluno1</td>
+            <td>Aluno1@email.com</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Aluno2</td>
+            <td>Aluno2@email.com</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="finance">
+      <h2>Tabela de controle Financeiro</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <!-- colspan para coluna, rowspan para linha -->
+          <tr>
+            <td rowspan="2">12/04/2024</td>
+            <td>Despesa</td>
+            <td>Almoço</td>
+            <td>R$ 35,00</td>
+          </tr>
+          <tr>
+            <td>Receita</td>
+            <td>salário</td>
+            <td>R$ 2.400,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
